@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  color: #cacaca;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.container p::first-letter {
+  text-transform: uppercase;
+}
