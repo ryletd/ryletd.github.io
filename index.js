@@ -13,8 +13,13 @@ params.forEach(([param, value]) => {
   }
 
   const paramBlock = document.createElement("p");
+  const paramTitle = document.createElement("span");
 
-  paramBlock.textContent = `${param} — ${value}`;
+  paramTitle.classList.add("bold");
+  paramTitle.textContent = param;
+
+  paramBlock.textContent = ` — ${value}`;
+  paramBlock.prepend(paramTitle);
 
   container.append(paramBlock);
 });

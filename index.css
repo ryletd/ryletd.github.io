@@ -33,3 +33,7 @@ body {
 .container p::first-letter {
   text-transform: uppercase;
 }
+
+.bold {
+  font-weight: bold;
+}
