@@ -15,7 +15,7 @@ params.forEach(([param, value]) => {
   const paramBlock = document.createElement("p");
   const paramTitle = document.createElement("span");
 
-  paramTitle.classList.add("bold");
+  paramTitle.classList.add("param-title");
   paramTitle.textContent = param;
 
   paramBlock.textContent = ` — ${value}`;
