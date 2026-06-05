@@ -33,8 +33,3 @@ body {
 .container p::first-letter {
   text-transform: uppercase;
 }
-
-.param-title {
-  color: #fff;
-  font-size: 20px;
-}
